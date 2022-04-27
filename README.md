@@ -46,8 +46,8 @@ The Sender and Receiver are testable on their own:
 
 - The Sender is testable without the Receiver - so we can develop
 for another sensor, test and be confident about integration.
-- The Receiver is testable without the Sender - so we can enhance with additional statistics,
-without re-testing against all Senders again.
+- The Receiver is testable without the Sender - so we can enhance
+without re-testing against all Receivers again.
 
 ## Decomposition of responsibility
 
@@ -75,3 +75,11 @@ This section lists the minimum functionality of the Sender and Receiver.
 ## Quality Parameters
 
 Setup the quality parameters of your project (duplication, complexity, coverage, warnings) using GitHub workflow yml files.
+
+## Receiver's Requirement              
+
+![](image/Receiver_Requirement.png)
+
+## Receiver's Design
+
+![](image/Receiver_Design(1).png)
